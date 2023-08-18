@@ -3,16 +3,57 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>TrainingCamp</title>
-     <link rel="stylesheet" href="index.css">
+     <title>Login - Website</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="logo-web.png">
+     <link rel="preload" href="main-desain.jpeg" as="jpeg" type="jpeg/jpg">
 </head>
 <body>
 
-     <div class="container">
-          <div class="box">
-               <p>Hello World!</p>
+     <header>
+          <div class="container-header">
+               <div class="brand-header">
+                    <img src="logo-web.png" alt="" height="42" width="42">
+               </div>
+               <div class="text-brand-header">
+                    <h1>NHA</h1>
+               </div>
+               <div class="navigasi">
+                    <a href="#">Beranda</a>
+                    <a href="#">Service</a>
+                    <a href="#">Contact</a>
+                    <form action="">
+                         <input type="search" placeholder="search" name="search" id="search">
+                         <button type="submit" id="submit"><img src="search.png" alt="" height="32" width="32"></button>
+                    </form>
+               </div>
           </div>
-     </div>
+
+     </header>
+
+     <main>
+          <div class="container-main">
+               <section id="login-welcome" class="isi-container-satu">
+               <div class="WELCOME">
+                    <h2>Welcome To My Website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque similique sequi cupiditate adipisci quo corrupti esse, sunt commodi non. Tempora alias rerum illum laboriosam iusto quo distinctio, consectetur corrupti?</p>
+               </div>
+               <div class="logins">
+                    
+                    <form action="">
+                         <h3>Login</h3>
+                         <input type="email" name="email" id="email" placeholder="Email...">
+                         <input type="password" name="password" id="password" placeholder="Password...">
+                         <button type="submit">Login</button>
+                    </form>
+               </div>
+               </section>
+               
+               
+          </div>
+     </main>
+
+     
      
 </body>
 </html>
